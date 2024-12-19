@@ -1,0 +1,17 @@
+Task Details:
+
+1- Full Document Parse with exact spacing. - pending: need to explore other libraries
+
+2- Create a simple parser add rules and extract the data and show that in JSON form just like doc parser do.
+  2.1 - Purchase Order Parser
+    2.1.1 - Fixed Text Position (Company Details)  - DONE
+  2.2 - Fixed Text Data Table (Table Details) - inaccurate result
+  2.3 - Automatic PO Extraction (PO # (NEXT_RIGHT)) - DONE
+
+
+output format: - DONE
+{
+  "fixed_text_positiob" : "",
+  "data_table": [{}, {}],
+  "po_token": "123123"
+}
