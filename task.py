@@ -69,7 +69,7 @@ def get_PO(image):
 if __name__ == "__main__":
    
    ''' 
-      TODO Image preprocessing
+      Image preprocessing
       The best color of text for recognition by Tesseract OCR (and most OCR engines) is black text on a white background.
          - Resizing: Resizes the image if its dimensions are smaller than 800x600.
          - Grayscale Conversion: Converts the image to grayscale for better recognition.
