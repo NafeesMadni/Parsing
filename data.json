@@ -7,6 +7,29 @@
         "Fax: (000) 000-0000",
         "Website:"
     ],
-    "data_table": "[{\"0\":\"123423423]\",\"1\":\"DESCRIPTION\",\"2\":\"\",\"3\":\"150.00\",\"4\":\"2,290.00\"},{\"0\":\"145645645] |\",\"1\":\"Product XYZ\",\"2\":\"\",\"3\":\"75.00 |\",\"4\":\"75.00 |\"},{\"0\":\"\",\"1\":\"Product ABC |\",\"2\":\"\",\"3\":\"\",\"4\":\"\"}]",
-    "PO_token": "123456"
+    "data_table": [
+        [
+            "ITEM #",
+            "DESCRIPTION",
+            "QTY",
+            "UNIT PRICE",
+            "TOTAL"
+        ],
+        [
+            "[23423423]",
+            "Product XYZ",
+            "| ;",
+            "150.00",
+            "2,290.00"
+        ],
+        [
+            "145645645]",
+            "Product ABC",
+            "",
+            "75.00",
+            "75.00"
+        ]
+    ],
+    "PO_token": "123456",
+    "Test Spaces": "Manage permissions and groups.\nSearch, filter, and disp            lay users in the admin.\n"
 }
